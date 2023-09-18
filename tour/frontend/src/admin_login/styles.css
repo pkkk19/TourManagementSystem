@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800');
+* {
+  box-sizing:content-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  font-weight: 400;
+  font-family: 'Fira Sans', sans-serif;
+}
+h3{
+  font-weight: 500;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+button{
+    display: flex;
+    margin-top: 5%;
+}
+.box-mid{
+
+    border-radius: 30px;
+    border: 40px solid rgb(148, 152, 163);
+    height: 230px;
+    background-color: rgb(148, 152, 163);
+    animation: mymove 4s infinite;
+}
+@keyframes mymove {
+    50% {box-shadow: -5px -5px 50px #515b74;}
+  }
+.admin-form{
+margin-top: 50%;
+}

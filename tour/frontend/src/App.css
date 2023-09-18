@@ -1,0 +1,18 @@
+body{
+    background: rgb(55,55,100)
+}
+
+#task-container{
+    margin:2%;
+    padding:3%;
+
+    justify-content: space-around;
+
+}
+
+
+.flex-wrapper{
+display: flex;
+margin: 50px;
+justify-content: space-around;
+}

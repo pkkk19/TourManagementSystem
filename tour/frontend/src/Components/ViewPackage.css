@@ -1,0 +1,126 @@
+*{
+margin:0;
+}
+
+.pacakage_details_container{
+width: 100%;
+max-width: 1000px; 
+display: flex;
+flex-direction: column;
+position: absolute;
+left: 160px;
+}
+/* .package_details_left{
+border-radius:8px;
+height: 100%;
+object-fit: contain;
+width: 60%;
+box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1), 0 0 0 2px rgb(255,255,255), 0.3em 0.3em 1em rgba(0,0,0,0.3);
+} */
+
+/* .package_details_right{
+margin: auto;
+border-radius: 8px;
+background:#587e9a;
+width:50%;
+display: flex;
+max-height: 300px;
+margin-left: -150px;
+margin-left: -150px;
+padding: 20px;
+box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1), 0 0 0 2px rgba(255, 255, 255, 0), 0.3em 0.3em 1em rgba(0,0,0,0.3);
+}
+.details{
+margin:  auto;
+color: white;
+}
+*/
+.package-img{
+border-radius:8px;
+width: 1000px;
+height: 350px;
+opacity:0.4;
+
+}
+.imgContainer{
+  background-color: rgba(0, 0, 0, 1);
+    border-radius:8px;
+    width: fit-content;
+
+    margin-top: 10px;
+}
+.Package_name{
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    left: 260px;
+    top:150px;
+    color:white;
+
+}
+.Short_descrpition{
+    width: 80%;
+font-family: "Louize-DisplayBold",
+serif;
+
+}
+.brief_description{
+    color :rgb(104, 100, 100);
+    font-family: "CerebriSans-Regular",
+    sans-serif;
+    text-align: left;
+    display: inline;
+    font-size: 15px;
+    padding:7px;
+    box-shadow: 4px 12px 12px 12px rgba(9, 9, 9, 0.23);
+    margin-left: 120px;
+    height: fit-content;
+
+}
+.brief_description div div img{
+    opacity: 0.7;
+
+}
+.description_section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.destination_seats,.price_category{
+    display: flex;
+    flex-direction: row;
+}
+.data{
+    margin-top: -10px;
+    color:black;
+    font-size: 27px;
+}
+.img_label{
+       display: flex;
+    flex-direction: row;
+}
+.descrip{
+    margin-left:7px;
+}
+.seats{
+    margin-left: -10px;
+}
+.price_category div{
+    padding-left: 30px;
+}
+.book_trip{
+    background-color:rgb(151, 37, 37);
+    color: white;
+    border: none;
+    text-align: center;
+    margin-left: 90px;
+    height:25px;
+}
+.book_trip:hover{
+   opacity: 0.8;
+}
+
+.package_description_container{
+width:340%;
+}

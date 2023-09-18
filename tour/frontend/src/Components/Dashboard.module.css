@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@200;300;400;500&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@200;300;400;500&family=Roboto:wght@300;400&display=swap');
+
+:root {
+    --headerOpacity: 1;
+    --headerScale: 1;
+  }
+  
+  .video_header {
+    backgroundRepeat: 'no-repeat';
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .video_header{
+  height:100vh;
+  background-image:linear-gradient(rgba(67, 67, 67, 0.8), rgba(15, 5, 8, 0.5)), url('http://127.0.0.1:8000/media/posts/background.jpg' );
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+
+  }
+  .video_header, .video_header video, .video_header .viewport_header {
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .video_header .viewport_header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 1;
+    opacity: var(--headerOpacity);
+    transform: scale(var(--headerScale));
+  }
+  
+  html, body {
+    height: 100vh;
+    overflow-x: hidden;
+
+  }
+  
+  html {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 150%;
+    line-height: 1.4;
+  }
+  
+ .Title{
+ margin-top:8%;
+ }
+  
+  .firstLine,.secondLine {
+   font-family:poppins, sans-serif;
+   text-align:center;
+    color: white;
+  }
+  h1 span {
+  font-family:poppins,sans-serif;
+  font-size: 6vw;
+  color: #2eb6c4;
+  }
+
+  .bookBtn{
+
+background-color: #2eb6c4;
+border: 2px solid #FFF0;
+border-radius: 15px;
+box-sizing: border-box;
+color: #FFFFFF;
+cursor: pointer;
+display: inline-block;
+font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+font-size: 16px;
+font-weight: 600;
+line-height: normal;
+margin: 0;
+min-height: 60px;
+min-width: 0;
+outline: none;
+padding: 16px 24px;
+text-align: center;
+text-decoration: none;
+transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+
+  }
+
+.bookBtn:hover{
+  transform: scale(1.5);
+}
+  
+  main {
+    background: white;
+    position: relative;
+    padding: 1rem;
+    margin-top: 100vh;
+  }
+  main::before {
+    content: "";
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    top: -100vh;
+  }
+  main p {
+    max-width: 600px;
+    margin: 1rem auto;
+  }
+
+  .packageCategoryTitle{
+  color: black;
+  margin-left:0;
+  padding:2%;
+
+  }
+
+
+  

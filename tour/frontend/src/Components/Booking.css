@@ -1,0 +1,78 @@
+
+.Booking_Form{
+
+width: 50%;
+
+    max-width: 1220px;
+    margin: 0 auto;
+    position: relative;
+    padding: 0 25px;
+}
+.Booking_Form div div{
+    display: flex;
+    flex-direction: column;
+    padding: 2px;
+
+}
+input{
+ 
+        color: #1b2b3a;
+        border: 1px solid rgba(27, 41, 48, 0.3);
+        border-radius: 4px;
+        padding: 0 15px;
+        font-family: "CerebriSans-Regular",
+        sans-serif;
+        font-size: 1rem;
+        line-height: normal;
+        letter-spacing: normal;
+}
+.a{
+    height:40px;
+}
+section,.Booking_details{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        padding: 2px;
+        justify-content: space-between;
+}
+
+
+
+
+.number {
+    
+    width: 350px;
+}
+.packageName{
+    text-align: center;
+    justify-content: center;
+}
+textarea{
+    resize: none;
+    width: 148%;
+    
+}
+input[type="button"]{
+    width: fit-content;
+    height: fit-content;
+    margin-top: 110%;
+    margin-left: 365%;
+}
+.otherinfo_book{
+
+    display: flex;
+    flex-direction: row;
+    padding-bottom:2%;
+}
+
+input:not(:placeholder-shown):not(:focus):invalid {
+  border: 2px solid red;
+}
+input[type="button"] {
+    opacity: 1;
+}
+
+input:not(:placeholder-shown):valid::after input[type="button"]{
+    content:"hello";
+}
